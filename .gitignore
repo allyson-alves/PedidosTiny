@@ -1,4 +1,9 @@
+# Arquivos de compilação Java
+*.class
+
+# Arquivos de construção do Maven
 target/
+.mvn/wrapper/maven-wrapper.jar
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -36,3 +41,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Arquivos de registro e saída
+*.log
+logs/
